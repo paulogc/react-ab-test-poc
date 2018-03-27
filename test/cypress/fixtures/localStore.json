@@ -1,0 +1,43 @@
+{
+  "formReducer": {
+    "steps": {
+      "acquisition": true,
+      "modalities": true,
+      "taxRegime": true,
+      "contributions": true,
+      "beneficiaries": true,
+      "confirmation": false,
+      "flux": {
+        "id": 1,
+        "title": "Novo investimento",
+        "content": "Começar um novo plano de previdência na XP.",
+        "value": "1"
+      },
+      "lastActiveStep": "confirmation",
+      "type": {
+        "modalityId": "2",
+        "beneficiaryName": "Vida Gerador de Benefício Livre",
+        "shortName": "VGBL"
+      },
+      "taxation": {
+        "id": 1,
+        "beneficiaryName": "Progressivo",
+        "insurerCode": "1"
+        },
+      "contributions": {
+        "ApplicationValue": "60000",
+        "ChargeModeId": "ticket",
+        "ChargeTypeId" :"no"
+      },
+      "beneficiaries": [
+        {
+          "id": 1,
+          "beneficiaryName": ["Paulo Guedes"],
+          "relationshipDegree": "2",
+          "birthDate": "1986-06-01",
+          "participation": "100"
+        }
+      ]
+    }
+  }
+}

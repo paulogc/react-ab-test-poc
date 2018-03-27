@@ -1,0 +1,9 @@
+.npmrc
+node_modules
+dist
+yarn-error.log
+test/cypress/screenshots
+test/cypress/videos
+**coverage
+**.DS_Store
+**__snapshots__
