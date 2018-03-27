@@ -1,9 +1,6 @@
-import React, { Component, Fragment } from 'react';
-import PropTypes, { arrayOf } from 'prop-types';
-import { connect } from 'react-redux';
+import React, { Fragment } from 'react';
 import { Route, Switch } from 'react-router';
 import Loadable from 'react-loadable';
-import { loadMenu } from 'redux-flow/actions/menu';
 
 export const InvestmentFundListPageLodable = Loadable({
   loader: () =>
@@ -19,42 +16,18 @@ export const HomeLodable = Loadable({
 
 export const Header = Loadable({
   loader: () =>
-  import('components/Header' /* webpackChunkName: "Header" */),
+  import('containers/Header' /* webpackChunkName: "Header" */),
   loading: () => <div>Loading</div>,
 });
 
-class Routes extends Component {
-  static propTypes = {
-    menu: arrayOf(PropTypes.object),
-    onLoadMenu: PropTypes.func.isRequired,
-  }
+const Routes = () => (
+  <Fragment>
+    <Header />
+    <Switch>
+      <Route exact path="/" component={HomeLodable} />
+      <Route exact path="/home" component={InvestmentFundListPageLodable} />
+    </Switch>
+  </Fragment>
+);
 
-  static defaultProps = {
-    menu: [],
-  }
-
-  componentDidMount() {
-    if (!this.props.menu.length) {
-      this.props.onLoadMenu();
-    }
-  }
-
-  render() {
-    return (
-      <Fragment>
-        <Header menu={this.props.menu} />
-        <Switch>
-          <Route exact path="/" component={HomeLodable} />
-          <Route exact path="/home" component={InvestmentFundListPageLodable} />
-        </Switch>
-      </Fragment>
-    );
-  }
-}
-
-export default connect(
-  ({ menuReducer }) => ({ menu: menuReducer.menu }),
-  {
-    onLoadMenu: loadMenu,
-  },
-)(Routes);
+export default Routes;

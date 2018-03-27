@@ -5,7 +5,7 @@ import {
 } from '../constants/menu';
 
 const INITIAL_STATE = {
-  menu: {},
+  menu: [],
 };
 
 export default function menuReducer(state = INITIAL_STATE, action) {
