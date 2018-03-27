@@ -2,70 +2,77 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@7.0.0-beta.40", "@babel/code-frame@^7.0.0-beta.35", "@babel/code-frame@^7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/code-frame/-/code-frame-7.0.0-beta.40.tgz#37e2b0cf7c56026b4b21d3927cadf81adec32ac6"
+"@babel/code-frame@7.0.0-beta.42", "@babel/code-frame@^7.0.0-beta.35", "@babel/code-frame@^7.0.0-beta.40":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/code-frame/-/code-frame-7.0.0-beta.42.tgz#a9c83233fa7cd06b39dc77adbb908616ff4f1962"
   dependencies:
-    "@babel/highlight" "7.0.0-beta.40"
+    "@babel/highlight" "7.0.0-beta.42"
 
-"@babel/generator@7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/generator/-/generator-7.0.0-beta.40.tgz#ab61f9556f4f71dbd1138949c795bb9a21e302ea"
+"@babel/generator@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/generator/-/generator-7.0.0-beta.42.tgz#777bb50f39c94a7e57f73202d833141f8159af33"
   dependencies:
-    "@babel/types" "7.0.0-beta.40"
+    "@babel/types" "7.0.0-beta.42"
     jsesc "^2.5.1"
     lodash "^4.2.0"
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-"@babel/helper-function-name@7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.40.tgz#9d033341ab16517f40d43a73f2d81fc431ccd7b6"
+"@babel/helper-function-name@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.42.tgz#b38b8f4f85168d1812c543dd700b5d549b0c4658"
   dependencies:
-    "@babel/helper-get-function-arity" "7.0.0-beta.40"
-    "@babel/template" "7.0.0-beta.40"
-    "@babel/types" "7.0.0-beta.40"
+    "@babel/helper-get-function-arity" "7.0.0-beta.42"
+    "@babel/template" "7.0.0-beta.42"
+    "@babel/types" "7.0.0-beta.42"
 
-"@babel/helper-get-function-arity@7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.40.tgz#ac0419cf067b0ec16453e1274f03878195791c6e"
+"@babel/helper-get-function-arity@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.42.tgz#ad072e32f912c033053fc80478169aeadc22191e"
   dependencies:
-    "@babel/types" "7.0.0-beta.40"
+    "@babel/types" "7.0.0-beta.42"
 
-"@babel/highlight@7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/highlight/-/highlight-7.0.0-beta.40.tgz#b43d67d76bf46e1d10d227f68cddcd263786b255"
+"@babel/helper-split-export-declaration@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.42.tgz#0d0d5254220a9cc4e7e226240306b939dc210ee7"
+  dependencies:
+    "@babel/types" "7.0.0-beta.42"
+
+"@babel/highlight@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/highlight/-/highlight-7.0.0-beta.42.tgz#a502a1c0d6f99b2b0e81d468a1b0c0e81e3f3623"
   dependencies:
     chalk "^2.0.0"
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@babel/template@7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/template/-/template-7.0.0-beta.40.tgz#034988c6424eb5c3268fe6a608626de1f4410fc8"
+"@babel/template@7.0.0-beta.42":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/template/-/template-7.0.0-beta.42.tgz#7186d4e70d44cdec975049ba0a73bdaf5cdee052"
   dependencies:
-    "@babel/code-frame" "7.0.0-beta.40"
-    "@babel/types" "7.0.0-beta.40"
-    babylon "7.0.0-beta.40"
+    "@babel/code-frame" "7.0.0-beta.42"
+    "@babel/types" "7.0.0-beta.42"
+    babylon "7.0.0-beta.42"
     lodash "^4.2.0"
 
 "@babel/traverse@^7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/traverse/-/traverse-7.0.0-beta.40.tgz#d140e449b2e093ef9fe1a2eecc28421ffb4e521e"
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/traverse/-/traverse-7.0.0-beta.42.tgz#f4bf4d1e33d41baf45205e2d0463591d57326285"
   dependencies:
-    "@babel/code-frame" "7.0.0-beta.40"
-    "@babel/generator" "7.0.0-beta.40"
-    "@babel/helper-function-name" "7.0.0-beta.40"
-    "@babel/types" "7.0.0-beta.40"
-    babylon "7.0.0-beta.40"
-    debug "^3.0.1"
+    "@babel/code-frame" "7.0.0-beta.42"
+    "@babel/generator" "7.0.0-beta.42"
+    "@babel/helper-function-name" "7.0.0-beta.42"
+    "@babel/helper-split-export-declaration" "7.0.0-beta.42"
+    "@babel/types" "7.0.0-beta.42"
+    babylon "7.0.0-beta.42"
+    debug "^3.1.0"
     globals "^11.1.0"
     invariant "^2.2.0"
     lodash "^4.2.0"
 
-"@babel/types@7.0.0-beta.40", "@babel/types@^7.0.0-beta.40":
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/types/-/types-7.0.0-beta.40.tgz#25c3d7aae14126abe05fcb098c65a66b6d6b8c14"
+"@babel/types@7.0.0-beta.42", "@babel/types@^7.0.0-beta.40":
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@babel/types/-/types-7.0.0-beta.42.tgz#1e2118767684880f6963801b272fd2b3348efacc"
   dependencies:
     esutils "^2.0.2"
     lodash "^4.2.0"
@@ -130,8 +137,8 @@
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@types/mocha/-/mocha-2.2.44.tgz#1d4a798e53f35212fd5ad4d04050620171cd5b5e"
 
 "@types/node@*":
-  version "9.4.7"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@types/node/-/node-9.4.7.tgz#57d81cd98719df2c9de118f2d5f3b1120dcd7275"
+  version "9.6.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/@types/node/-/node-9.6.0.tgz#d3480ee666df9784b1001a1872a2f6ccefb6c2d7"
 
 "@types/sinon-chai@2.7.29":
   version "2.7.29"
@@ -224,12 +231,13 @@ ajv@^5.0.0, ajv@^5.1.0, ajv@^5.2.3, ajv@^5.3.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.0.1, ajv@^6.1.0:
-  version "6.2.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ajv/-/ajv-6.2.1.tgz#28a6abc493a2abe0fb4c8507acaedb43fa550671"
+  version "6.4.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ajv/-/ajv-6.4.0.tgz#d3aff78e9277549771daf0164cff48482b754fc6"
   dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
+    uri-js "^3.0.2"
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
@@ -252,8 +260,8 @@ ansi-escapes@^1.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
 
 ansi-escapes@^3.0.0:
-  version "3.0.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ansi-escapes/-/ansi-escapes-3.0.0.tgz#ec3e8b4e9f8064fc02c3ac9b65f1c275bda8ef92"
+  version "3.1.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ansi-escapes/-/ansi-escapes-3.1.0.tgz#f73207bb81207d75fd6c83f125af26eea378ca30"
 
 ansi-html@0.0.7:
   version "0.0.7"
@@ -276,13 +284,6 @@ ansi-styles@^3.1.0, ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   dependencies:
     color-convert "^1.9.0"
-
-anymatch@^1.3.0:
-  version "1.3.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
-  dependencies:
-    micromatch "^2.1.5"
-    normalize-path "^2.0.0"
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -688,12 +689,12 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-jest/-/babel-jest-22.4.1.tgz#ff53ebca45957347f27ff4666a31499fbb4c4ddd"
+babel-jest@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-jest/-/babel-jest-22.4.3.tgz#4b7a0b6041691bbd422ab49b3b73654a49a6627a"
   dependencies:
     babel-plugin-istanbul "^4.1.5"
-    babel-preset-jest "^22.4.1"
+    babel-preset-jest "^22.4.3"
 
 babel-loader@^7.1.2:
   version "7.1.4"
@@ -730,13 +731,13 @@ babel-plugin-istanbul@^4.1.5:
     istanbul-lib-instrument "^1.7.5"
     test-exclude "^4.1.1"
 
-babel-plugin-jest-hoist@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.1.tgz#d712fe5da8b6965f3191dacddbefdbdf4fb66d63"
+babel-plugin-jest-hoist@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.3.tgz#7d8bcccadc2667f96a0dcc6afe1891875ee6c14a"
 
 babel-plugin-module-resolver@^3.0.0:
-  version "3.1.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.1.0.tgz#cf7868bd2c1818f855aede16141009b87dd1f95b"
+  version "3.1.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.1.1.tgz#881cf67e3d4b8400d5eaaefc1be44d2dc1fe404f"
   dependencies:
     find-babel-config "^1.1.0"
     glob "^7.1.2"
@@ -1171,11 +1172,11 @@ babel-preset-flow@^6.23.0:
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
 
-babel-preset-jest@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-preset-jest/-/babel-preset-jest-22.4.1.tgz#efa2e5f5334242a9457a068452d7d09735db172a"
+babel-preset-jest@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babel-preset-jest/-/babel-preset-jest-22.4.3.tgz#e92eef9813b7026ab4ca675799f37419b5a44156"
   dependencies:
-    babel-plugin-jest-hoist "^22.4.1"
+    babel-plugin-jest-hoist "^22.4.3"
     babel-plugin-syntax-object-rest-spread "^6.13.0"
 
 babel-preset-react@^6.24.1:
@@ -1276,9 +1277,9 @@ babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@7.0.0-beta.40, babylon@^7.0.0-beta.40:
-  version "7.0.0-beta.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babylon/-/babylon-7.0.0-beta.40.tgz#91fc8cd56d5eb98b28e6fde41045f2957779940a"
+babylon@7.0.0-beta.42, babylon@^7.0.0-beta.40:
+  version "7.0.0-beta.42"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/babylon/-/babylon-7.0.0-beta.42.tgz#67cfabcd4f3ec82999d29031ccdea89d0ba99657"
 
 babylon@^6.18.0:
   version "6.18.0"
@@ -1526,6 +1527,10 @@ buffer-crc32@~0.2.3:
   version "0.2.13"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
 
+buffer-from@^1.0.0:
+  version "1.0.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/buffer-from/-/buffer-from-1.0.0.tgz#4cb8832d23612589b0406e9e2956c17f06fdf531"
+
 buffer-indexof@^1.0.0:
   version "1.1.1"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/buffer-indexof/-/buffer-indexof-1.1.1.tgz#52fabcc6a606d1a00302802648ef68f639da268c"
@@ -1630,12 +1635,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000814"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/caniuse-db/-/caniuse-db-1.0.30000814.tgz#2c9eed7fbc2724066474cb7e1a924f0ea12fe4a2"
+  version "1.0.30000820"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/caniuse-db/-/caniuse-db-1.0.30000820.tgz#7c20e25cea1768b261b724f82e3a6a253aaa1468"
 
 caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
-  version "1.0.30000814"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/caniuse-lite/-/caniuse-lite-1.0.30000814.tgz#73eb6925ac2e54d495218f1ea0007da3940e488b"
+  version "1.0.30000820"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/caniuse-lite/-/caniuse-lite-1.0.30000820.tgz#6e36ee75187a2c83d26d6504a1af47cc580324d2"
 
 caseless@~0.11.0:
   version "0.11.0"
@@ -1674,7 +1679,7 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.2:
   version "2.3.2"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -1722,8 +1727,8 @@ cheerio@^1.0.0-rc.2:
     parse5 "^3.0.1"
 
 chokidar@^2.0.0, chokidar@^2.0.2:
-  version "2.0.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/chokidar/-/chokidar-2.0.2.tgz#4dc65139eeb2714977735b6a35d06e97b494dfd7"
+  version "2.0.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/chokidar/-/chokidar-2.0.3.tgz#dcbd4f6cbb2a55b4799ba8a840ac527e5f4b1176"
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.0"
@@ -1737,7 +1742,7 @@ chokidar@^2.0.0, chokidar@^2.0.2:
     readdirp "^2.0.0"
     upath "^1.0.0"
   optionalDependencies:
-    fsevents "^1.0.0"
+    fsevents "^1.1.2"
 
 ci-info@^1.0.0:
   version "1.1.3"
@@ -1846,15 +1851,15 @@ clone-deep@^2.0.1:
     shallow-clone "^1.0.0"
 
 clone-regexp@^1.0.0:
-  version "1.0.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/clone-regexp/-/clone-regexp-1.0.0.tgz#eae0a2413f55c0942f818c229fefce845d7f3b1c"
+  version "1.0.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/clone-regexp/-/clone-regexp-1.0.1.tgz#051805cd33173375d82118fc0918606da39fd60f"
   dependencies:
     is-regexp "^1.0.0"
     is-supported-regexp-flag "^1.0.0"
 
 clone@^1.0.2:
-  version "1.0.3"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/clone/-/clone-1.0.3.tgz#298d7e2231660f40c003c2ed3140decf3f53085f"
+  version "1.0.4"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
 co@^4.6.0:
   version "4.6.0"
@@ -1931,13 +1936,9 @@ commander@2.11.0:
   version "2.11.0"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
-commander@2.14.x, commander@~2.14.1:
-  version "2.14.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
-
-commander@^2.11.0, commander@^2.13.0, commander@^2.9.0:
-  version "2.15.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/commander/-/commander-2.15.0.tgz#ad2a23a1c3b036e392469b8012cec6b33b4c1322"
+commander@2.15.x, commander@^2.11.0, commander@^2.13.0, commander@^2.9.0, commander@~2.15.0:
+  version "2.15.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
 common-tags@1.4.0:
   version "1.4.0"
@@ -1998,9 +1999,10 @@ concat-stream@1.6.0:
     typedarray "^0.0.6"
 
 concat-stream@^1.4.7, concat-stream@^1.6.0:
-  version "1.6.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/concat-stream/-/concat-stream-1.6.1.tgz#261b8f518301f1d834e36342b9fea095d2620a26"
+  version "1.6.2"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/concat-stream/-/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
   dependencies:
+    buffer-from "^1.0.0"
     inherits "^2.0.3"
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
@@ -2060,8 +2062,8 @@ core-js@^1.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
 core-js@^2.4.0, core-js@^2.5.0:
-  version "2.5.3"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
+  version "2.5.4"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/core-js/-/core-js-2.5.4.tgz#f2c8bf181f2a80b92f360121429ce63a2f0aeae0"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2158,8 +2160,8 @@ css-color-names@0.0.4:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
 css-loader@^0.28.8:
-  version "0.28.10"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/css-loader/-/css-loader-0.28.10.tgz#40282e79230f7bcb4e483efa631d670b735ebf42"
+  version "0.28.11"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/css-loader/-/css-loader-0.28.11.tgz#c3f9864a700be2711bb5a2462b2389b1a392dab7"
   dependencies:
     babel-code-frame "^6.26.0"
     css-selector-tokenizer "^0.7.0"
@@ -2336,7 +2338,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.6, debug@^2.6.8, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@3.1.0, debug@^3.0.0, debug@^3.0.1, debug@^3.1.0:
+debug@3.1.0, debug@^3.0.0, debug@^3.1.0:
   version "3.1.0"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
@@ -2620,12 +2622,12 @@ ee-first@1.1.1:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 ejs@^2.5.7:
-  version "2.5.7"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
+  version "2.5.8"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ejs/-/ejs-2.5.8.tgz#2ab6954619f225e6193b7ac5f7c39c48fefe4380"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
-  version "1.3.37"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/electron-to-chromium/-/electron-to-chromium-1.3.37.tgz#4a92734e0044c8cf0b1553be57eae21a4c6e5fab"
+  version "1.3.40"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/electron-to-chromium/-/electron-to-chromium-1.3.40.tgz#1fbd6d97befd72b8a6f921dc38d22413d2f6fddf"
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -2695,8 +2697,8 @@ enzyme-adapter-utils@^1.3.0:
     prop-types "^15.6.0"
 
 enzyme-to-json@^3.3.0:
-  version "3.3.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/enzyme-to-json/-/enzyme-to-json-3.3.1.tgz#64239dcd417e2fb552f4baa6632de4744b9b5b93"
+  version "3.3.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/enzyme-to-json/-/enzyme-to-json-3.3.3.tgz#ede45938fb309cd87ebd4386f60c754525515a07"
   dependencies:
     lodash "^4.17.4"
 
@@ -2734,8 +2736,8 @@ error-ex@^1.2.0, error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 es-abstract@^1.5.1, es-abstract@^1.6.1, es-abstract@^1.7.0:
-  version "1.10.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/es-abstract/-/es-abstract-1.10.0.tgz#1ecb36c197842a00d8ee4c2dfd8646bb97d60864"
+  version "1.11.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/es-abstract/-/es-abstract-1.11.0.tgz#cce87d518f0496893b1a30cd8461835535480681"
   dependencies:
     es-to-primitive "^1.1.1"
     function-bind "^1.1.1"
@@ -2752,11 +2754,12 @@ es-to-primitive@^1.1.1:
     is-symbol "^1.0.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.35, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.40"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/es5-ext/-/es5-ext-0.10.40.tgz#ab3d2179b943008c5e9ef241beb25ef41424c774"
+  version "0.10.41"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/es5-ext/-/es5-ext-0.10.41.tgz#bab3e982d750f0112f0cb9e6abed72c59eb33eb2"
   dependencies:
     es6-iterator "~2.0.3"
     es6-symbol "~3.1.1"
+    next-tick "1"
 
 es6-iterator@^2.0.1, es6-iterator@~2.0.1, es6-iterator@~2.0.3:
   version "2.0.3"
@@ -2890,8 +2893,8 @@ eslint-plugin-import@^2.8.0:
     read-pkg-up "^2.0.0"
 
 eslint-plugin-jest@^21.6.1:
-  version "21.14.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/eslint-plugin-jest/-/eslint-plugin-jest-21.14.1.tgz#8961ec94b2c7912a8ad09112b35aadc326d8d38e"
+  version "21.15.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/eslint-plugin-jest/-/eslint-plugin-jest-21.15.0.tgz#645a3f560d3e61d99611b215adc80b4f31e6d896"
 
 eslint-plugin-jsx-a11y@^6.0.3:
   version "6.0.3"
@@ -2930,8 +2933,8 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
 eslint@^4.15.0:
-  version "4.18.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/eslint/-/eslint-4.18.2.tgz#0f81267ad1012e7d2051e186a9004cc2267b8d45"
+  version "4.19.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -2942,7 +2945,7 @@ eslint@^4.15.0:
     doctrine "^2.1.0"
     eslint-scope "^3.7.1"
     eslint-visitor-keys "^1.0.0"
-    espree "^3.5.2"
+    espree "^3.5.4"
     esquery "^1.0.0"
     esutils "^2.0.2"
     file-entry-cache "^2.0.0"
@@ -2964,6 +2967,7 @@ eslint@^4.15.0:
     path-is-inside "^1.0.2"
     pluralize "^7.0.0"
     progress "^2.0.0"
+    regexpp "^1.0.1"
     require-uncached "^1.0.3"
     semver "^5.3.0"
     strip-ansi "^4.0.0"
@@ -2971,7 +2975,7 @@ eslint@^4.15.0:
     table "4.0.2"
     text-table "~0.2.0"
 
-espree@^3.5.2:
+espree@^3.5.4:
   version "3.5.4"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/espree/-/espree-3.5.4.tgz#b0f447187c8a8bed944b815a660bddf5deb5d1a7"
   dependencies:
@@ -3098,16 +3102,16 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-expect@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/expect/-/expect-22.4.0.tgz#371edf1ae15b83b5bf5ec34b42f1584660a36c16"
+expect@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/expect/-/expect-22.4.3.tgz#d5a29d0a0e1fb2153557caef2674d4547e914674"
   dependencies:
     ansi-styles "^3.2.0"
-    jest-diff "^22.4.0"
-    jest-get-type "^22.1.0"
-    jest-matcher-utils "^22.4.0"
-    jest-message-util "^22.4.0"
-    jest-regex-util "^22.1.0"
+    jest-diff "^22.4.3"
+    jest-get-type "^22.4.3"
+    jest-matcher-utils "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-regex-util "^22.4.3"
 
 express@^4.16.2:
   version "4.16.3"
@@ -3305,8 +3309,8 @@ fileset@^2.0.2:
     minimatch "^3.0.3"
 
 filesize@^3.5.11:
-  version "3.6.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/filesize/-/filesize-3.6.0.tgz#22d079615624bb6fd3c04026120628a41b3f4efa"
+  version "3.6.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/filesize/-/filesize-3.6.1.tgz#090bb3ee01b6f801a8a8be99d31710b3422bb317"
 
 fill-range@^2.1.0:
   version "2.2.3"
@@ -3458,7 +3462,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@^1.0.0, fsevents@^1.1.1:
+fsevents@^1.1.1, fsevents@^1.1.2:
   version "1.1.3"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/fsevents/-/fsevents-1.1.3.tgz#11f82318f5fe7bb2cd22965a108e9306208216d8"
   dependencies:
@@ -3607,8 +3611,8 @@ global-dirs@^0.1.0:
     ini "^1.3.4"
 
 globals@^11.0.1, globals@^11.1.0:
-  version "11.3.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/globals/-/globals-11.3.0.tgz#e04fdb7b9796d8adac9c8f64c14837b2313378b0"
+  version "11.4.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/globals/-/globals-11.4.0.tgz#b85c793349561c16076a3c13549238a27945f1bc"
 
 globals@^9.18.0:
   version "9.18.0"
@@ -3890,12 +3894,12 @@ html-entities@^1.2.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
 
 html-minifier@^3.2.3:
-  version "3.5.10"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/html-minifier/-/html-minifier-3.5.10.tgz#8522c772c388db81aa5c26f62033302d906ea1c7"
+  version "3.5.12"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/html-minifier/-/html-minifier-3.5.12.tgz#6bfad4d0327f5b8d2b62f5854654ac3703b9b031"
   dependencies:
     camel-case "3.0.x"
     clean-css "4.1.x"
-    commander "2.14.x"
+    commander "2.15.x"
     he "1.1.x"
     ncname "1.0.x"
     param-case "2.1.x"
@@ -4009,8 +4013,8 @@ icss-utils@^2.1.0:
     postcss "^6.0.1"
 
 ieee754@^1.1.4:
-  version "1.1.8"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
+  version "1.1.11"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
 
 ignore@^3.3.3, ignore@^3.3.5:
   version "3.3.7"
@@ -4364,8 +4368,8 @@ is-path-cwd@^1.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-path-cwd/-/is-path-cwd-1.0.0.tgz#d225ec23132e89edd38fda767472e62e65f1106d"
 
 is-path-in-cwd@^1.0.0:
-  version "1.0.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-path-in-cwd/-/is-path-in-cwd-1.0.0.tgz#6477582b8214d602346094567003be8a9eac04dc"
+  version "1.0.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-path-in-cwd/-/is-path-in-cwd-1.0.1.tgz#5ac48b345ef675339bd6c7a48a912110b241cf52"
   dependencies:
     is-path-inside "^1.0.0"
 
@@ -4428,8 +4432,8 @@ is-subset@^0.1.1:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-subset/-/is-subset-0.1.1.tgz#8a59117d932de1de00f245fcdd39ce43f1e939a6"
 
 is-supported-regexp-flag@^1.0.0:
-  version "1.0.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-supported-regexp-flag/-/is-supported-regexp-flag-1.0.0.tgz#8b520c85fae7a253382d4b02652e045576e13bb8"
+  version "1.0.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/is-supported-regexp-flag/-/is-supported-regexp-flag-1.0.1.tgz#21ee16518d2c1dd3edd3e9a0d57e50207ac364ca"
 
 is-svg@^2.0.0:
   version "2.1.0"
@@ -4572,15 +4576,15 @@ istanbul-reports@^1.3.0:
   dependencies:
     handlebars "^4.0.3"
 
-jest-changed-files@^22.2.0:
-  version "22.2.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-changed-files/-/jest-changed-files-22.2.0.tgz#517610c4a8ca0925bdc88b0ca53bd678aa8d019e"
+jest-changed-files@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-changed-files/-/jest-changed-files-22.4.3.tgz#8882181e022c38bd46a2e4d18d44d19d90a90fb2"
   dependencies:
     throat "^4.0.0"
 
-jest-cli@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-cli/-/jest-cli-22.4.2.tgz#e6546dc651e13d164481aa3e76e53ac4f4edab06"
+jest-cli@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-cli/-/jest-cli-22.4.3.tgz#bf16c4a5fb7edc3fa5b9bb7819e34139e88a72c7"
   dependencies:
     ansi-escapes "^3.0.0"
     chalk "^2.0.1"
@@ -4593,20 +4597,20 @@ jest-cli@^22.4.2:
     istanbul-lib-coverage "^1.1.1"
     istanbul-lib-instrument "^1.8.0"
     istanbul-lib-source-maps "^1.2.1"
-    jest-changed-files "^22.2.0"
-    jest-config "^22.4.2"
-    jest-environment-jsdom "^22.4.1"
-    jest-get-type "^22.1.0"
-    jest-haste-map "^22.4.2"
-    jest-message-util "^22.4.0"
-    jest-regex-util "^22.1.0"
-    jest-resolve-dependencies "^22.1.0"
-    jest-runner "^22.4.2"
-    jest-runtime "^22.4.2"
-    jest-snapshot "^22.4.0"
-    jest-util "^22.4.1"
-    jest-validate "^22.4.2"
-    jest-worker "^22.2.2"
+    jest-changed-files "^22.4.3"
+    jest-config "^22.4.3"
+    jest-environment-jsdom "^22.4.3"
+    jest-get-type "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-regex-util "^22.4.3"
+    jest-resolve-dependencies "^22.4.3"
+    jest-runner "^22.4.3"
+    jest-runtime "^22.4.3"
+    jest-snapshot "^22.4.3"
+    jest-util "^22.4.3"
+    jest-validate "^22.4.3"
+    jest-worker "^22.4.3"
     micromatch "^2.3.11"
     node-notifier "^5.2.1"
     realpath-native "^1.0.0"
@@ -4617,101 +4621,101 @@ jest-cli@^22.4.2:
     which "^1.2.12"
     yargs "^10.0.3"
 
-jest-config@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-config/-/jest-config-22.4.2.tgz#580ba5819bf81a5e48f4fd470e8b81834f45c855"
+jest-config@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-config/-/jest-config-22.4.3.tgz#0e9d57db267839ea31309119b41dc2fa31b76403"
   dependencies:
     chalk "^2.0.1"
     glob "^7.1.1"
-    jest-environment-jsdom "^22.4.1"
-    jest-environment-node "^22.4.1"
-    jest-get-type "^22.1.0"
-    jest-jasmine2 "^22.4.2"
-    jest-regex-util "^22.1.0"
-    jest-resolve "^22.4.2"
-    jest-util "^22.4.1"
-    jest-validate "^22.4.2"
-    pretty-format "^22.4.0"
+    jest-environment-jsdom "^22.4.3"
+    jest-environment-node "^22.4.3"
+    jest-get-type "^22.4.3"
+    jest-jasmine2 "^22.4.3"
+    jest-regex-util "^22.4.3"
+    jest-resolve "^22.4.3"
+    jest-util "^22.4.3"
+    jest-validate "^22.4.3"
+    pretty-format "^22.4.3"
 
-jest-diff@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-diff/-/jest-diff-22.4.0.tgz#384c2b78519ca44ca126382df53f134289232525"
+jest-diff@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-diff/-/jest-diff-22.4.3.tgz#e18cc3feff0aeef159d02310f2686d4065378030"
   dependencies:
     chalk "^2.0.1"
     diff "^3.2.0"
-    jest-get-type "^22.1.0"
-    pretty-format "^22.4.0"
+    jest-get-type "^22.4.3"
+    pretty-format "^22.4.3"
 
-jest-docblock@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-docblock/-/jest-docblock-22.4.0.tgz#dbf1877e2550070cfc4d9b07a55775a0483159b8"
+jest-docblock@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-docblock/-/jest-docblock-22.4.3.tgz#50886f132b42b280c903c592373bb6e93bb68b19"
   dependencies:
     detect-newline "^2.1.0"
 
-jest-environment-jsdom@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-environment-jsdom/-/jest-environment-jsdom-22.4.1.tgz#754f408872441740100d3917e5ec40c74de6447f"
+jest-environment-jsdom@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-environment-jsdom/-/jest-environment-jsdom-22.4.3.tgz#d67daa4155e33516aecdd35afd82d4abf0fa8a1e"
   dependencies:
-    jest-mock "^22.2.0"
-    jest-util "^22.4.1"
+    jest-mock "^22.4.3"
+    jest-util "^22.4.3"
     jsdom "^11.5.1"
 
-jest-environment-node@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-environment-node/-/jest-environment-node-22.4.1.tgz#418850eb654596b8d6e36c2021cbedbc23df8e16"
+jest-environment-node@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-environment-node/-/jest-environment-node-22.4.3.tgz#54c4eaa374c83dd52a9da8759be14ebe1d0b9129"
   dependencies:
-    jest-mock "^22.2.0"
-    jest-util "^22.4.1"
+    jest-mock "^22.4.3"
+    jest-util "^22.4.3"
 
-jest-get-type@^22.1.0:
-  version "22.1.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-get-type/-/jest-get-type-22.1.0.tgz#4e90af298ed6181edc85d2da500dbd2753e0d5a9"
+jest-get-type@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-get-type/-/jest-get-type-22.4.3.tgz#e3a8504d8479342dd4420236b322869f18900ce4"
 
-jest-haste-map@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-haste-map/-/jest-haste-map-22.4.2.tgz#a90178e66146d4378bb076345a949071f3b015b4"
+jest-haste-map@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-haste-map/-/jest-haste-map-22.4.3.tgz#25842fa2ba350200767ac27f658d58b9d5c2e20b"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.11"
-    jest-docblock "^22.4.0"
-    jest-serializer "^22.4.0"
-    jest-worker "^22.2.2"
+    jest-docblock "^22.4.3"
+    jest-serializer "^22.4.3"
+    jest-worker "^22.4.3"
     micromatch "^2.3.11"
     sane "^2.0.0"
 
-jest-jasmine2@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-jasmine2/-/jest-jasmine2-22.4.2.tgz#dfd3d259579ed6f52510d8f1ab692808f0d40691"
+jest-jasmine2@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-jasmine2/-/jest-jasmine2-22.4.3.tgz#4daf64cd14c793da9db34a7c7b8dcfe52a745965"
   dependencies:
     chalk "^2.0.1"
     co "^4.6.0"
-    expect "^22.4.0"
+    expect "^22.4.3"
     graceful-fs "^4.1.11"
     is-generator-fn "^1.0.0"
-    jest-diff "^22.4.0"
-    jest-matcher-utils "^22.4.0"
-    jest-message-util "^22.4.0"
-    jest-snapshot "^22.4.0"
-    jest-util "^22.4.1"
+    jest-diff "^22.4.3"
+    jest-matcher-utils "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-snapshot "^22.4.3"
+    jest-util "^22.4.3"
     source-map-support "^0.5.0"
 
-jest-leak-detector@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-leak-detector/-/jest-leak-detector-22.4.0.tgz#64da77f05b001c96d2062226e079f89989c4aa2f"
+jest-leak-detector@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-leak-detector/-/jest-leak-detector-22.4.3.tgz#2b7b263103afae8c52b6b91241a2de40117e5b35"
   dependencies:
-    pretty-format "^22.4.0"
+    pretty-format "^22.4.3"
 
-jest-matcher-utils@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-matcher-utils/-/jest-matcher-utils-22.4.0.tgz#d55f5faf2270462736bdf7c7485ee931c9d4b6a1"
+jest-matcher-utils@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-matcher-utils/-/jest-matcher-utils-22.4.3.tgz#4632fe428ebc73ebc194d3c7b65d37b161f710ff"
   dependencies:
     chalk "^2.0.1"
-    jest-get-type "^22.1.0"
-    pretty-format "^22.4.0"
+    jest-get-type "^22.4.3"
+    pretty-format "^22.4.3"
 
-jest-message-util@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-message-util/-/jest-message-util-22.4.0.tgz#e3d861df16d2fee60cb2bc8feac2188a42579642"
+jest-message-util@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-message-util/-/jest-message-util-22.4.3.tgz#cf3d38aafe4befddbfc455e57d65d5239e399eb7"
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.35"
     chalk "^2.0.1"
@@ -4719,60 +4723,60 @@ jest-message-util@^22.4.0:
     slash "^1.0.0"
     stack-utils "^1.0.1"
 
-jest-mock@^22.2.0:
-  version "22.2.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-mock/-/jest-mock-22.2.0.tgz#444b3f9488a7473adae09bc8a77294afded397a7"
+jest-mock@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-mock/-/jest-mock-22.4.3.tgz#f63ba2f07a1511772cdc7979733397df770aabc7"
 
-jest-regex-util@^22.1.0:
-  version "22.1.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-regex-util/-/jest-regex-util-22.1.0.tgz#5daf2fe270074b6da63e5d85f1c9acc866768f53"
+jest-regex-util@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-regex-util/-/jest-regex-util-22.4.3.tgz#a826eb191cdf22502198c5401a1fc04de9cef5af"
 
-jest-resolve-dependencies@^22.1.0:
-  version "22.1.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-resolve-dependencies/-/jest-resolve-dependencies-22.1.0.tgz#340e4139fb13315cd43abc054e6c06136be51e31"
+jest-resolve-dependencies@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-resolve-dependencies/-/jest-resolve-dependencies-22.4.3.tgz#e2256a5a846732dc3969cb72f3c9ad7725a8195e"
   dependencies:
-    jest-regex-util "^22.1.0"
+    jest-regex-util "^22.4.3"
 
-jest-resolve@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-resolve/-/jest-resolve-22.4.2.tgz#25d88aa4147462c9c1c6a1ba16250d3794c24d00"
+jest-resolve@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-resolve/-/jest-resolve-22.4.3.tgz#0ce9d438c8438229aa9b916968ec6b05c1abb4ea"
   dependencies:
     browser-resolve "^1.11.2"
     chalk "^2.0.1"
 
-jest-runner@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-runner/-/jest-runner-22.4.2.tgz#19390ea9d99f768973e16f95a1efa351c0017e87"
+jest-runner@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-runner/-/jest-runner-22.4.3.tgz#298ddd6a22b992c64401b4667702b325e50610c3"
   dependencies:
     exit "^0.1.2"
-    jest-config "^22.4.2"
-    jest-docblock "^22.4.0"
-    jest-haste-map "^22.4.2"
-    jest-jasmine2 "^22.4.2"
-    jest-leak-detector "^22.4.0"
-    jest-message-util "^22.4.0"
-    jest-runtime "^22.4.2"
-    jest-util "^22.4.1"
-    jest-worker "^22.2.2"
+    jest-config "^22.4.3"
+    jest-docblock "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-jasmine2 "^22.4.3"
+    jest-leak-detector "^22.4.3"
+    jest-message-util "^22.4.3"
+    jest-runtime "^22.4.3"
+    jest-util "^22.4.3"
+    jest-worker "^22.4.3"
     throat "^4.0.0"
 
-jest-runtime@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-runtime/-/jest-runtime-22.4.2.tgz#0de0444f65ce15ee4f2e0055133fc7c17b9168f3"
+jest-runtime@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-runtime/-/jest-runtime-22.4.3.tgz#b69926c34b851b920f666c93e86ba2912087e3d0"
   dependencies:
     babel-core "^6.0.0"
-    babel-jest "^22.4.1"
+    babel-jest "^22.4.3"
     babel-plugin-istanbul "^4.1.5"
     chalk "^2.0.1"
     convert-source-map "^1.4.0"
     exit "^0.1.2"
     graceful-fs "^4.1.11"
-    jest-config "^22.4.2"
-    jest-haste-map "^22.4.2"
-    jest-regex-util "^22.1.0"
-    jest-resolve "^22.4.2"
-    jest-util "^22.4.1"
-    jest-validate "^22.4.2"
+    jest-config "^22.4.3"
+    jest-haste-map "^22.4.3"
+    jest-regex-util "^22.4.3"
+    jest-resolve "^22.4.3"
+    jest-util "^22.4.3"
+    jest-validate "^22.4.3"
     json-stable-stringify "^1.0.1"
     micromatch "^2.3.11"
     realpath-native "^1.0.0"
@@ -4781,55 +4785,55 @@ jest-runtime@^22.4.2:
     write-file-atomic "^2.1.0"
     yargs "^10.0.3"
 
-jest-serializer@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-serializer/-/jest-serializer-22.4.0.tgz#b5d145b98c4b0d2c20ab686609adbb81fe23b566"
+jest-serializer@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-serializer/-/jest-serializer-22.4.3.tgz#a679b81a7f111e4766235f4f0c46d230ee0f7436"
 
-jest-snapshot@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-snapshot/-/jest-snapshot-22.4.0.tgz#03d3ce63f8fa7352388afc6a3c8b5ccc3a180ed7"
+jest-snapshot@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-snapshot/-/jest-snapshot-22.4.3.tgz#b5c9b42846ffb9faccb76b841315ba67887362d2"
   dependencies:
     chalk "^2.0.1"
-    jest-diff "^22.4.0"
-    jest-matcher-utils "^22.4.0"
+    jest-diff "^22.4.3"
+    jest-matcher-utils "^22.4.3"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
-    pretty-format "^22.4.0"
+    pretty-format "^22.4.3"
 
-jest-util@^22.4.1:
-  version "22.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-util/-/jest-util-22.4.1.tgz#dd17c3bdb067f8e90591563ec0c42bf847dc249f"
+jest-util@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-util/-/jest-util-22.4.3.tgz#c70fec8eec487c37b10b0809dc064a7ecf6aafac"
   dependencies:
     callsites "^2.0.0"
     chalk "^2.0.1"
     graceful-fs "^4.1.11"
     is-ci "^1.0.10"
-    jest-message-util "^22.4.0"
+    jest-message-util "^22.4.3"
     mkdirp "^0.5.1"
     source-map "^0.6.0"
 
-jest-validate@^22.4.2:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-validate/-/jest-validate-22.4.2.tgz#e789a4e056173bf97fe797a2df2d52105c57d4f4"
+jest-validate@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-validate/-/jest-validate-22.4.3.tgz#0780954a5a7daaeec8d3c10834b9280865976b30"
   dependencies:
     chalk "^2.0.1"
-    jest-config "^22.4.2"
-    jest-get-type "^22.1.0"
+    jest-config "^22.4.3"
+    jest-get-type "^22.4.3"
     leven "^2.1.0"
-    pretty-format "^22.4.0"
+    pretty-format "^22.4.3"
 
-jest-worker@^22.2.2:
-  version "22.2.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-worker/-/jest-worker-22.2.2.tgz#c1f5dc39976884b81f68ec50cb8532b2cbab3390"
+jest-worker@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest-worker/-/jest-worker-22.4.3.tgz#5c421417cba1c0abf64bf56bd5fb7968d79dd40b"
   dependencies:
     merge-stream "^1.0.1"
 
 jest@^22.0.6:
-  version "22.4.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest/-/jest-22.4.2.tgz#34012834a49bf1bdd3bc783850ab44e4499afc20"
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/jest/-/jest-22.4.3.tgz#2261f4b117dc46d9a4a1a673d2150958dee92f16"
   dependencies:
     import-local "^1.0.0"
-    jest-cli "^22.4.2"
+    jest-cli "^22.4.3"
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
@@ -5399,7 +5403,7 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
 
-micromatch@^2.1.5, micromatch@^2.3.11:
+micromatch@^2.3.11:
   version "2.3.11"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/micromatch/-/micromatch-2.3.11.tgz#86677c97d1720b363431d04d0d15293bd38c1565"
   dependencies:
@@ -5418,8 +5422,8 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     regex-cache "^0.4.2"
 
 micromatch@^3.1.4, micromatch@^3.1.8:
-  version "3.1.9"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/micromatch/-/micromatch-3.1.9.tgz#15dc93175ae39e52e93087847096effc73efcf89"
+  version "3.1.10"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   dependencies:
     arr-diff "^4.0.0"
     array-unique "^0.3.2"
@@ -5433,7 +5437,7 @@ micromatch@^3.1.4, micromatch@^3.1.8:
     object.pick "^1.3.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
-    to-regex "^3.0.1"
+    to-regex "^3.0.2"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -5554,9 +5558,9 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-nan@^2.3.0, nan@^2.3.2:
-  version "2.9.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
+nan@^2.10.0, nan@^2.3.0:
+  version "2.10.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 nanomatch@^1.2.9:
   version "1.2.9"
@@ -5601,6 +5605,10 @@ negotiator@0.6.1:
 neo-async@^2.5.0:
   version "2.5.0"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/neo-async/-/neo-async-2.5.0.tgz#76b1c823130cca26acfbaccc8fbaf0a2fa33b18f"
+
+next-tick@1:
+  version "1.0.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -5695,8 +5703,8 @@ node-pre-gyp@^0.6.39:
     tar-pack "^3.4.0"
 
 node-sass@^4.7.2:
-  version "4.7.2"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/node-sass/-/node-sass-4.7.2.tgz#9366778ba1469eb01438a9e8592f4262bcb6794e"
+  version "4.8.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/node-sass/-/node-sass-4.8.3.tgz#d077cc20a08ac06f661ca44fb6f19cd2ed41debb"
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -5710,7 +5718,7 @@ node-sass@^4.7.2:
     lodash.mergewith "^4.6.0"
     meow "^3.7.0"
     mkdirp "^0.5.1"
-    nan "^2.3.2"
+    nan "^2.10.0"
     node-gyp "^3.3.1"
     npmlog "^4.0.0"
     request "~2.79.0"
@@ -5747,7 +5755,7 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-normalize-path@^2.0.0, normalize-path@^2.0.1, normalize-path@^2.1.1:
+normalize-path@^2.0.1, normalize-path@^2.1.1:
   version "2.1.1"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
   dependencies:
@@ -5800,8 +5808,8 @@ number-is-nan@^1.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
 nwmatcher@^1.4.3:
-  version "1.4.3"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/nwmatcher/-/nwmatcher-1.4.3.tgz#64348e3b3d80f035b40ac11563d278f8b72db89c"
+  version "1.4.4"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/nwmatcher/-/nwmatcher-1.4.4.tgz#2285631f34a95f0d0395cd900c96ed39b58f346e"
 
 oauth-sign@~0.8.1, oauth-sign@~0.8.2:
   version "0.8.2"
@@ -5820,8 +5828,8 @@ object-copy@^0.1.0:
     kind-of "^3.0.3"
 
 object-hash@^1.1.4:
-  version "1.2.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/object-hash/-/object-hash-1.2.0.tgz#e96af0e96981996a1d47f88ead8f74f1ebc4422b"
+  version "1.3.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/object-hash/-/object-hash-1.3.0.tgz#76d9ba6ff113cf8efc0d996102851fe6723963e2"
 
 object-inspect@^1.5.0:
   version "1.5.0"
@@ -5923,8 +5931,8 @@ opener@^1.4.3:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/opener/-/opener-1.4.3.tgz#5c6da2c5d7e5831e8ffa3964950f8d6674ac90b8"
 
 opn@^5.1.0:
-  version "5.2.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/opn/-/opn-5.2.0.tgz#71fdf934d6827d676cecbea1531f95d354641225"
+  version "5.3.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/opn/-/opn-5.3.0.tgz#64871565c863875f052cfdf53d3e3cb5adb53b1c"
   dependencies:
     is-wsl "^1.1.0"
 
@@ -6318,8 +6326,8 @@ postcss-html@^0.12.0:
     unist-util-find-all-after "^1.0.1"
 
 postcss-less@^1.1.0:
-  version "1.1.3"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/postcss-less/-/postcss-less-1.1.3.tgz#6930525271bfe38d5793d33ac09c1a546b87bb51"
+  version "1.1.5"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/postcss-less/-/postcss-less-1.1.5.tgz#a6f0ce180cf3797eeee1d4adc0e9e6d6db665609"
   dependencies:
     postcss "^5.2.16"
 
@@ -6545,12 +6553,12 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     supports-color "^3.2.3"
 
 postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.17, postcss@^6.0.19, postcss@^6.0.6, postcss@^6.0.8:
-  version "6.0.19"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/postcss/-/postcss-6.0.19.tgz#76a78386f670b9d9494a655bf23ac012effd1555"
+  version "6.0.21"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/postcss/-/postcss-6.0.21.tgz#8265662694eddf9e9a5960db6da33c39e4cd069d"
   dependencies:
-    chalk "^2.3.1"
+    chalk "^2.3.2"
     source-map "^0.6.1"
-    supports-color "^5.2.0"
+    supports-color "^5.3.0"
 
 pre-commit@^1.2.2:
   version "1.2.2"
@@ -6579,9 +6587,9 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-pretty-format@^22.4.0:
-  version "22.4.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/pretty-format/-/pretty-format-22.4.0.tgz#237b1f7e1c50ed03bc65c03ccc29d7c8bb7beb94"
+pretty-format@^22.4.3:
+  version "22.4.3"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/pretty-format/-/pretty-format-22.4.3.tgz#f873d780839a9c02e9664c8a082e9ee79eaac16f"
   dependencies:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
@@ -6825,8 +6833,8 @@ react-redux@^5.0.6:
     prop-types "^15.6.0"
 
 react-responsive@^4.0.4:
-  version "4.0.5"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/react-responsive/-/react-responsive-4.0.5.tgz#60990c47524d739ba6c44e9351303c34a0409373"
+  version "4.1.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/react-responsive/-/react-responsive-4.1.0.tgz#01d129a35729c8f0373e79871cc8d5ecf6e22765"
   dependencies:
     hyphenate-style-name "^1.0.0"
     matchmediaquery "^0.2.1"
@@ -7063,6 +7071,10 @@ regex-not@^1.0.0, regex-not@^1.0.2:
   dependencies:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
+
+regexpp@^1.0.1:
+  version "1.0.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/regexpp/-/regexpp-1.0.1.tgz#d857c3a741dce075c2848dcb019a0a975b190d43"
 
 regexpu-core@^1.0.0:
   version "1.0.0"
@@ -7330,8 +7342,8 @@ resolve@1.1.7:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
 resolve@^1.4.0, resolve@^1.5.0:
-  version "1.5.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
+  version "1.6.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/resolve/-/resolve-1.6.0.tgz#0fbd21278b27b4004481c395349e7aba60a9ff5c"
   dependencies:
     path-parse "^1.0.5"
 
@@ -7396,8 +7408,8 @@ rx-lite@*, rx-lite@^4.0.8:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
 rxjs@^5.0.0-beta.11, rxjs@^5.0.3:
-  version "5.5.7"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/rxjs/-/rxjs-5.5.7.tgz#afb3d1642b069b2fbf203903d6501d1acb4cda27"
+  version "5.5.8"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/rxjs/-/rxjs-5.5.8.tgz#b2b0809a57614ad6254c03d7446dea0d83ca3791"
   dependencies:
     symbol-observable "1.0.1"
 
@@ -7412,13 +7424,13 @@ safe-regex@^1.1.0:
     ret "~0.1.10"
 
 sane@^2.0.0:
-  version "2.4.1"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/sane/-/sane-2.4.1.tgz#29f991208cf28636720efdc584293e7fd66663a5"
+  version "2.5.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/sane/-/sane-2.5.0.tgz#6359cd676f5efd9988b264d8ce3b827dd6b27bec"
   dependencies:
-    anymatch "^1.3.0"
+    anymatch "^2.0.0"
     exec-sh "^0.2.0"
     fb-watchman "^2.0.0"
-    minimatch "^3.0.2"
+    micromatch "^3.1.4"
     minimist "^1.1.1"
     walker "~1.0.5"
     watch "~0.18.0"
@@ -7564,8 +7576,8 @@ setprototypeof@1.1.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/setprototypeof/-/setprototypeof-1.1.0.tgz#d0bd85536887b6fe7c0d818cb962d9d91c54e656"
 
 sha.js@^2.4.0, sha.js@^2.4.8:
-  version "2.4.10"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/sha.js/-/sha.js-2.4.10.tgz#b1fde5cd7d11a5626638a07c604ab909cfa31f9b"
+  version "2.4.11"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
@@ -7704,8 +7716,8 @@ source-map-support@^0.4.15:
     source-map "^0.5.6"
 
 source-map-support@^0.5.0:
-  version "0.5.3"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/source-map-support/-/source-map-support-0.5.3.tgz#2b3d5fff298cfa4d1afd7d4352d569e9a0158e76"
+  version "0.5.4"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/source-map-support/-/source-map-support-0.5.4.tgz#54456efa89caa9270af7cd624cc2f123e51fbae8"
   dependencies:
     source-map "^0.6.0"
 
@@ -7757,8 +7769,8 @@ spdx-license-ids@^3.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/spdx-license-ids/-/spdx-license-ids-3.0.0.tgz#7a7cd28470cc6d3a1cfe6d66886f6bc430d3ac87"
 
 spdy-transport@^2.0.18:
-  version "2.0.20"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/spdy-transport/-/spdy-transport-2.0.20.tgz#735e72054c486b2354fe89e702256004a39ace4d"
+  version "2.1.0"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/spdy-transport/-/spdy-transport-2.1.0.tgz#4bbb15aaffed0beefdd56ad61dbdc8ba3e2cb7a1"
   dependencies:
     debug "^2.6.8"
     detect-node "^2.0.3"
@@ -7844,8 +7856,8 @@ stream-browserify@^2.0.1:
     readable-stream "^2.0.2"
 
 stream-http@^2.7.2:
-  version "2.8.0"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/stream-http/-/stream-http-2.8.0.tgz#fd86546dac9b1c91aff8fc5d287b98fafb41bc10"
+  version "2.8.1"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/stream-http/-/stream-http-2.8.1.tgz#d0441be1a457a73a733a8a7b53570bebd9ef66a4"
   dependencies:
     builtin-status-codes "^3.0.0"
     inherits "^2.0.1"
@@ -8054,7 +8066,7 @@ supports-color@^4.0.0, supports-color@^4.2.1:
   dependencies:
     has-flag "^2.0.0"
 
-supports-color@^5.1.0, supports-color@^5.2.0, supports-color@^5.3.0:
+supports-color@^5.1.0, supports-color@^5.3.0:
   version "5.3.0"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/supports-color/-/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
   dependencies:
@@ -8220,7 +8232,7 @@ to-regex-range@^2.1.0:
     is-number "^3.0.0"
     repeat-string "^1.6.1"
 
-to-regex@^3.0.1:
+to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/to-regex/-/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
   dependencies:
@@ -8319,10 +8331,10 @@ ua-parser-js@^0.7.9:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
 
 uglify-js@3.3.x:
-  version "3.3.14"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/uglify-js/-/uglify-js-3.3.14.tgz#d3d84d18722ff342fa96029cca71c67367700079"
+  version "3.3.16"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/uglify-js/-/uglify-js-3.3.16.tgz#23ba13efa27aa00885be7417819e8a9787f94028"
   dependencies:
-    commander "~2.14.1"
+    commander "~2.15.0"
     source-map "~0.6.1"
 
 uglify-js@^2.6, uglify-js@^2.8.29:
@@ -8450,6 +8462,12 @@ upath@^1.0.0:
 upper-case@^1.1.1:
   version "1.1.3"
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
+
+uri-js@^3.0.2:
+  version "3.0.2"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/uri-js/-/uri-js-3.0.2.tgz#f90b858507f81dea4dcfbb3c4c3dbfa2b557faaa"
+  dependencies:
+    punycode "^2.1.0"
 
 urix@^0.1.0:
   version "0.1.0"
@@ -8841,8 +8859,8 @@ xml-name-validator@^3.0.0:
   resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
 
 xp-components-react@^1.0.13:
-  version "1.0.13"
-  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/xp-components-react/-/xp-components-react-1.0.13.tgz#118e7692a6d0f6ed6331dd25f5bda0f79ae24617"
+  version "1.0.14"
+  resolved "https://xpinvestimentos.pkgs.visualstudio.com/_packaging/PackagesXP/npm/registry/xp-components-react/-/xp-components-react-1.0.14.tgz#b3c4d04760fd409a18ab43382b4d59dbfd0cc2ea"
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
