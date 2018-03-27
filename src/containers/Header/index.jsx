@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes, { arrayOf } from 'prop-types';
 import { connect } from 'react-redux';
 import { loadMenu } from 'redux-flow/actions/menu';
+import DropDown from './Dropdown';
 import './style.scss';
 
 class Header extends Component {
@@ -21,10 +22,14 @@ class Header extends Component {
   }
 
   renderMenuItem = () =>
-    this.props.menu.map(menuItem => <li key={menuItem.id}>{menuItem.label}</li>);
+    this.props.menu.map(menuItem => (
+      <DropDown
+        key={menuItem.id}
+        label={menuItem.label}
+      />
+    ));
 
   render() {
-    console.log(this.props.menu);
     return (
       <nav className="header-menu">
         <ul>
