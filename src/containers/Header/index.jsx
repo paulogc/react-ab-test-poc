@@ -2,17 +2,19 @@ import React, { Component } from 'react';
 import PropTypes, { arrayOf } from 'prop-types';
 import { connect } from 'react-redux';
 import { loadMenu } from 'redux-flow/actions/menu';
-import DropDown from './Dropdown';
+import Dropdown from './Dropdown';
 import './style.scss';
 
 class Header extends Component {
   static propTypes = {
     menu: arrayOf(PropTypes.object),
+    testA: PropTypes.bool,
     onLoadMenu: PropTypes.func.isRequired,
   }
 
   static defaultProps = {
     menu: [],
+    testA: false,
   }
 
   componentDidMount() {
@@ -23,15 +25,17 @@ class Header extends Component {
 
   renderMenuItem = () =>
     this.props.menu.map(menuItem => (
-      <DropDown
+      <Dropdown
         key={menuItem.id}
         label={menuItem.label}
       />
     ));
 
   render() {
+    const { testA } = this.props;
+
     return (
-      <nav className="header-menu">
+      <nav className={`header-menu${testA ? '__testA' : ''}`}>
         <ul>
           {this.renderMenuItem()}
         </ul>
