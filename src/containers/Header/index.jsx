@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import PropTypes, { arrayOf } from 'prop-types';
+import PropTypes, { arrayOf, instanceOf } from 'prop-types';
 import { connect } from 'react-redux';
+import { withCookies, Cookies } from 'react-cookie';
 import { loadMenu } from 'redux-flow/actions/menu';
 import Dropdown from './Dropdown';
 import './style.scss';
 
 class Header extends Component {
   static propTypes = {
+    cookies: instanceOf(Cookies).isRequired,
     menu: arrayOf(PropTypes.object),
-    testA: PropTypes.bool,
     onLoadMenu: PropTypes.func.isRequired,
   }
 
   static defaultProps = {
     menu: [],
-    testA: false,
   }
 
   componentDidMount() {
@@ -32,11 +32,11 @@ class Header extends Component {
     ));
 
   render() {
-    const { testA } = this.props;
+    const variant = this.props.cookies.get('lindd');
 
     return (
-      <nav className={`header-menu${testA ? '__testA' : ''}`}>
-        <ul>
+      <nav className="header-menu">
+        <ul className={`${variant.includes('variantB') ? ' testA' : ''}`}>
           {this.renderMenuItem()}
         </ul>
       </nav>
@@ -45,9 +45,9 @@ class Header extends Component {
 }
 
 
-export default connect(
+export default withCookies(connect(
   ({ menuReducer }) => ({ menu: menuReducer.menu }),
   {
     onLoadMenu: loadMenu,
   },
-)(Header);
+)(Header));
