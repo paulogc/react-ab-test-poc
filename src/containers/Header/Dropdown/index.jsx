@@ -1,38 +1,39 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class DropDown extends Component {
-  static propTypes = {
-    label: PropTypes.string,
-    children: PropTypes.node,
-  }
+const DropDown = ({
+  children,
+  label,
+  isSelected,
+  id,
+  onClick,
+}) => (
+  <li>
+    <div
+      role="button"
+      tabIndex={0}
+      onKeyDown={() => {}}
+      onClick={() => onClick(id)}
+    >
+      {label}
+      {isSelected && children}
+    </div>
+  </li>
+);
 
-  static defaultProps = {
-    label: '',
-    children: null,
-  }
 
-  state = { displayDropdown: false };
+DropDown.propTypes = {
+  label: PropTypes.string,
+  children: PropTypes.node,
+  isSelected: PropTypes.bool,
+  id: PropTypes.number.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
 
-  handleToggleDropdown = () => this.setState({ displayDropdown: !this.state.displayDropdown });
-
-  render() {
-    const {
-      children,
-      label,
-    } = this.props;
-
-    const { displayDropdown } = this.state;
-
-    return (
-      <li
-        onClick={this.handleToggleDropdown}
-      >
-        {label}
-        {displayDropdown && children}
-      </li>
-    );
-  }
-}
+DropDown.defaultProps = {
+  label: '',
+  children: null,
+  isSelected: false,
+};
 
 export default DropDown;
