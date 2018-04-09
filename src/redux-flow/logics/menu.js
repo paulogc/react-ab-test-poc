@@ -13,7 +13,6 @@ const loadMenu = createLogic({
         {
           method: 'GET',
         });
-
       dispatch(loadMenuSuccess(response.menu));
     } catch (error) {
       dispatch(loadMenuError(error));
