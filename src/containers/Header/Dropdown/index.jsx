@@ -8,7 +8,7 @@ const DropDown = ({
   id,
   onClick,
 }) => (
-  <li>
+  <li style={{ cursor: 'pointer' }} >
     <div
       role="button"
       tabIndex={0}
